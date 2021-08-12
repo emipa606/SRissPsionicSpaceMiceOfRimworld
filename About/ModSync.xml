@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>360f4ed1-0d19-40fa-86f1-98fe53a6c8cf</ID>
+  <ModName>[S'Riss] Psionic Space Mice of HiguerasRimworld (Continued)</ModName>
+  <Version>1.0.0.0</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>emipa606</Owner>
+    <Project>SRissPsionicSpaceMiceOfRimworld</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
+
+
+
+

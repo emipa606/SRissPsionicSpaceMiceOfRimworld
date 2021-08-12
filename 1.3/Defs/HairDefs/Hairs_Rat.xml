@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>RatNoHair</defName>
+    <label>No hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Rats/Hair/HairBlank</texPath>
+    <styleTags>
+      <li>RatNoHair</li>
+    </styleTags>
+  </HairDef>
+</Defs>

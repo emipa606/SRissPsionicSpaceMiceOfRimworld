@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>Make_RPB</defName>
+    <label>make psi scrambler</label>
+    <description>assemble a brain implant for S'Riss.</description>
+    <jobString>Assembling implant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RPB>1</RPB>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <RecipeDef Name="SurgeryInstallImplantRats" ParentName="SurgeryFlesh" Abstract="True">
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallImplantRats">
+    <defName>Implant_RPB</defName>
+    <label>implant psionic scrambler</label>
+    <description>Surgically implant a S'Riss Psionic Scrambler.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RPB</ThingDef>
+      <HediffDef>hediff_RPB</HediffDef>
+    </descriptionHyperlinks>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting Psionic Scrambler.</jobString>
+    <anesthetize>true</anesthetize>
+    <workAmount>800</workAmount>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPB</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RPB</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>hediff_RPB</addsHediff>
+  </RecipeDef>
+</Defs>

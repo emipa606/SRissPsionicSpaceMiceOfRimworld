@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase" Abstract="True" Name="RatFactionBase">
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="RatFactionBase">
+    <defName>RatPlayerColony</defName>
+    <label>New S'Riss Arrivals</label>
+    <description>A colony of S'Riss off-worlders.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>sriss</basicMemberKind>
+    <pawnSingular>S'Riss</pawnSingular>
+    <pawnsPlural>S'Riss</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <!--Zoomed in Icon-->
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <!--Zoomed out Icon-->
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <hairTags>
+      <li>RatNoHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

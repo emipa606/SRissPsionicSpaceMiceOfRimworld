@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>RPB</defName>
+    <label>psionic scrablmer</label>
+    <description>A S'Riss Brain implant that blocks out all psionic influences, "deafening" the user.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Implant_RPB</RecipeDef>
+      <HediffDef>hediff_RPB</HediffDef>
+    </descriptionHyperlinks>
+    <stackLimit>1</stackLimit>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>

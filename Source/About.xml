@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[S'Riss] Psionic Space Mice of Rimworld</name>
+  <author>Higuera</author>
+  <packageId>sriss.dagiantrat.rimworld</packageId>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>
+	This mod adds a race of Psionic Space Mice to Rimworld.
+	
+		Hailing from a world orbiting a distant G0V-Class star, S'Riss 
+	often live in isolated communities of their own kind divided by vast
+	tracts of unsettled land. In Recent history, a new wave of settlers 
+	have pushed outward, mixing among many other species with similar 
+	goals, towards the Rimworlds. To their Future...
+	
+	
+	STATS:
+	
+	0.67x Standard Pawn Scale
+	2.5x Base Psionic Sensitivity
+	50 Carrying Capacity
+	6 Move Speed
+	
+	Playable Faction
+	No NPC Factions (Yet)
+	
+	Rimworld Version 1.2
+	Mod Version 1.0
+	
+	</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>
