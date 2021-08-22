@@ -9,12 +9,21 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2236489060
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/SRissPsionicSpaceMiceOfRimworld]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 This mod adds a race of Psionic Space Mice to Rimworld.
 
-		*Hailing from a world orbiting a distant G0V-Class star, S&apos;Riss 
+		*Hailing from a world orbiting a distant G0V-Class star, S'Riss 
 	often live in isolated communities of their own kind divided by vast
 	tracts of unsettled land. In Recent history, a new wave of settlers 
 	have pushed outward, mixing among many other species with similar 
@@ -45,6 +54,7 @@ This mod adds a race of Psionic Space Mice to Rimworld.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
