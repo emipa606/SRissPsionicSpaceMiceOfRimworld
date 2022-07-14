@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>[S'Riss] Psionic Space Mice of HiguerasRimworld (Continued)</name>
   <packageId>Mlie.SRissPsionicSpaceMiceOfRimworld</packageId>
@@ -19,22 +19,26 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Higueras mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2236489060
 
 - Faction is no longer permanent enemy of the Empire
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/SRissPsionicSpaceMiceOfRimworld][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 This mod adds a race of Psionic Space Mice to Rimworld.
 
 		[i]Hailing from a world orbiting a distant G0V-Class star, S'Riss 
@@ -56,7 +60,7 @@ This mod adds a race of Psionic Space Mice to Rimworld.
 	Rimworld Version [b]1.2[/b]
 	Mod Version [b]1.0[/b]
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -65,6 +69,5 @@ This mod adds a race of Psionic Space Mice to Rimworld.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
