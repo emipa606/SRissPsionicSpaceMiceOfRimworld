@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>hediff_RPB</defName>
+    <label>Psi-scrambler</label>
+    <labelNoun>a psi-block</labelNoun>
+    <description>An implanted S'Riss Psionic Scrambler.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RPB</ThingDef>
+      <RecipeDef>Implant_RPB</RecipeDef>
+    </descriptionHyperlinks>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>-10</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>RPB_thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>hediff_RPB</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>psionic silence</label>
+        <description>The silence is thunderous... Unnatural.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

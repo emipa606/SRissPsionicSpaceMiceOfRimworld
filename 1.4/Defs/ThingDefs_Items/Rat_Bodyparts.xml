@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>RatTail</defName>
+    <label>Tail</label>
+    <description>A S'Riss severed tail.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>SimpleRatTail</defName>
+    <label>False Tail</label>
+    <description>A simple replacement for a missing tail. It's better then nothing.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>.5</Mass>
+    </statBases>
+    <costList>
+      <Cloth>5</Cloth>
+    </costList>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>AdvRatTail</defName>
+    <label>Bionic Tail</label>
+    <description>An advanced replacement for a missing tail. It even looks like real flesh.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <techHediffsTags>
+      <li>Spacer</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>
